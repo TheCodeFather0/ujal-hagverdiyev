@@ -25,6 +25,11 @@
   font-family: roboto !important;
 }
 
+.playFair {
+  font-family: playfair !important;
+
+}
+
 html *:first-child {
   margin-top: 0;
 }

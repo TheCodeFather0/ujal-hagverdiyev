@@ -8,7 +8,7 @@
 /** @group Base */
 @font-face {
   font-family: playfair;
-  src: url("../fonts/playfair/Playfair_9pt-Regular.ttf");
+  src: url("../fonts/playfair/Playfair_9pt-ExtraBold.ttf");
 }
 
 @font-face {
@@ -19,6 +19,7 @@
 .brandName {
   font-family: playfair !important;
   font-size: 80px;
+  font-weight: 800 !important;
   text-transform: uppercase;
 }
 .roboto {
@@ -26,8 +27,9 @@
 }
 
 .playFair {
+  font-weight: 800 !important;
+  text-transform: uppercase;
   font-family: playfair !important;
-
 }
 
 html *:first-child {

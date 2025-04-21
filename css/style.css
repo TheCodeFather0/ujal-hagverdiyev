@@ -32,6 +32,9 @@
   font-family: playfair !important;
 }
 
+.slider-detail {
+  background-position: center !important;
+}
 html *:first-child {
   margin-top: 0;
 }

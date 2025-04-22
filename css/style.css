@@ -22,6 +22,9 @@
   font-weight: 800 !important;
   text-transform: uppercase;
 }
+.bannerTitle {
+  font-size: 60px;
+}
 .roboto {
   font-family: roboto !important;
 }
@@ -16728,4 +16731,11 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 
 .card-boxed + .card-boxed {
   margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .brandName,
+  .bannerTitle {
+    font-size: 45px !important;
+  }
 }
